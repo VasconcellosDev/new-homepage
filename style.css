@@ -3,3 +3,38 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 89px;
+  align-items: center;
+  padding: 0px 129px 165px;
+}
+
+.header__logo {
+  width: 64px;
+  height: 40px;
+}
+
+.header__navigation {
+  display: flex;
+  gap: 41px;
+  align-items: center;
+}
+
+.header__navigation a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #5e607a;
+}
+
+.header__navigation a:hover {
+  color: #f15d51;
+}
